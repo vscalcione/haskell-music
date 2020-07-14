@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ffplay -f f32le -ar 48000 output.bin &
+ffplay -showmode 1 -f f32le -ar 48000 output.bin &
